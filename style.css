@@ -262,7 +262,7 @@ margin:5px 5px;
     background-color: var(--body-color-bg);
     height: 85px;
     width: 75vw;
-    margin:  9px auto;
+    margin:  9px auto 1px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -283,11 +283,40 @@ font-weight:400;
     margin: 15px 15px;
 }
 .faq{
-    height: 130vh;
+    min-height: 130vh;
 }
 .end-para {
     margin: 8vh auto 0px auto;
     width: 80vw;
 
 
+}
+.data{
+    margin: auto;
+    width: 75vw;
+    font-family: var(--font2);
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: var(--body-color-bg);
+    transition-property: visibility 2000ms;
+    /* transition-duration:3s;
+   transition-timing-function:linear; */
+
+}
+.data p{
+    padding: 24px 24px;
+
+}
+.hid{
+    display: none;
+}
+.icon-rotate{
+   transition-property:transform;
+   
+   transition-duration:300ms;
+   transition-timing-function:linear;
+}
+.transform-icon{
+    transform:rotate(90deg);
 }
