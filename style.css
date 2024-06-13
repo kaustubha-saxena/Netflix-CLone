@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+:root {
+    --color2: rgb(178, 7, 16);
+    --color: rgb(229, 9, 20);
+    --color-bg:rgb(0, 0, 0);
+
+    --body-color-bg:rgb(45, 45, 45);
+    --body-color-bg-hover:rgb(63, 63, 63);
+
+    --font: sans-serif;
+    --font2:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+body{
+    background-color:var(--body-color-bg);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container1 {
+    margin:0px 0px 5px;
+    height: 100vh;
+    
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/86742114-c001-4800-a127-c9c89ca7bbe4/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-size:auto; 
+    position: relative;
+}
+.box{
+    background-color: black;
+    opacity: 0.6;
+    margin:0px 0px 5px;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top:0px;
+}
+.cont1-div{
+    width: 100%;
+    position:absolute;
+    
+    z-index: 10;
+}
+
+div nav {
+    margin: 0px 0px 0px;
+    height: 10vh;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+div nav img {
+    width: 150px;
+}
+
+div nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+div nav ul li button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-family: var(--font);
+    background-color: var(--color);
+}
+
+.language {
+    padding: 6px 36px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: var(--font);
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+
+}
+
+div.cont1-h1 h1 {
+    font-family: var(--font2);
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.cont1-h1 {
+    width: 80vw;
+    margin: 15vw auto 0vh auto;
+margin-top: min(15vw,30vh);
+    color: white;
+}
+
+.cont1-p1-div {
+    width: 80vw;
+    margin: 3vh auto 0px auto;
+}
+
+.cont1-p2-div {
+    margin: 3vh auto 0px auto;
+    width: 80vw;
+
+
+}
+
+.para {
+    color: white;
+    text-align: center;
+    font-family: var(--font2);
+    font-size: 24px;
+    font-weight: 400;
+
+    
+}
+
+
+
+div.cont1-p2-div p, div.end-para p{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.email {
+    margin: 3vh auto 0px auto;
+    padding: 0px 0px 169px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+div.email input ::placeholder{
+    color: lightgrey;
+    font-size: 30px;
+    background-color: white;
+}
+div.email input{
+    padding:  16px 0px ;
+    padding-left: 5px;
+    padding-right: 15vw;
+    border: 1px sold white;
+ border-radius: 5px;
+ font-size: 16px;
+ background-color: black;
+ opacity: 0.7;
+ color: lightgray;
+ 
+}
+div.email button{
+    padding: 13px 40px;
+    background-color: var(--color);
+    font-family: var(--font);
+    font-size: 24px ;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+.out-cont{
+    background-color:var(--color-bg) ;
+    min-height: 70vh;
+    margin:0px 0px 5px;    
+    position: relative;
+}
+.in-cont{
+    min-height: 70vh;
+    margin: auto 0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap; 
+    gap: 40px;    
+}
+.heading h1{
+    margin-bottom: 24px;
+    color: white;
+font-family: var(--font);
+
+text-align:left;
+font-size: 45px;
+font-weight:700;
+}
+.heading p{
+    margin-top: 15px;
+color: white;
+font-family: var(--font);
+text-align: left;
+font-size: 24px;
+font-weight:400; 
+margin:5px 5px;
+}
+.image-div{
+    position: relative;
+}
+
+
+.image-div img{
+    width: 450px;
+    position: relative;
+    z-index: 10;
+    }
+    .tv-video {
+        width: 334px;
+        position: absolute;
+        left: 58px;
+        top: 70px;
+    }
+
+    .monitor-video {
+        width: 292px;
+        position: absolute;
+        left: 77px;
+        top: 42px;
+    }
+    
+    
+
+.heading{
+    width: 35vw;
+}
+
+
+
+
+.h1{
+    padding: 55px 0px 18px;
+}  
+
+
+.h1 h1{
+   
+    color: white;
+    text-align: center;
+    font-family: var(--font);
+    font-size: 45px;
+    font-weight:700;
+    /* background-color: beige;      */
+}
+.ques{ 
+    background-color: var(--body-color-bg);
+    height: 85px;
+    width: 75vw;
+    margin:  9px auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.ques:hover{
+    background-color: var(--body-color-bg-hover);
+}
+.ques p{
+    color: white;
+    font-family: var(--font);
+    
+    font-size: 24px;
+font-weight:400; 
+    margin:5px 25px;    
+}
+.icon{
+    margin: 15px 15px;
+}
+.faq{
+    height: 130vh;
+}
+.end-para {
+    margin: 8vh auto 0px auto;
+    width: 80vw;
+
+
+}
