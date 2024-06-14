@@ -58,7 +58,7 @@ div nav {
 
 }
 
-div nav img {
+div nav svg {
     width: 150px;
 }
 
@@ -351,15 +351,20 @@ div.email button {
 
 
 @media screen and (max-width: 890px) {
-    .cont1-h1 h1 {
+    div.cont1-h1 h1 {
+        font-size: 32px;
+        font-weight: 900;
+        text-align: center;
         
     }
-
+    .para{
+        font-size: 18px;
+    }
     .heading {
         
         width: 90vw;
     }
-
+    
     .heading h1 {
         font-size: 32px;
         font-weight: 900;
@@ -372,18 +377,22 @@ div.email button {
         font-weight: 400;
         text-align: center;
     }
+    .email{
+
+    }
     .image-div img {
-        width: 620px;
+        width: 80vw;
     }
     .tv-video{
-        width: 490px;
+        width: 58vw;
+        left: 11vw;
+        top: 13vw;
     }
 
     .monitor-video {
-        width: 389px;
-        
-        left: 102px;
-        top: 42px;
+        width: 50vw;
+        left: 16vw;
+        top: 7vw;
     }
     .in-cont{
         flex-direction: column;
@@ -393,4 +402,4 @@ div.email button {
     .mobile, .children{
         order: 2;
     }
-    }
+        }
