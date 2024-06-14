@@ -28,7 +28,7 @@ body{
     position: relative;
 }
 .box{
-    background-color: rgb(255, 8, 8);
+    background-color: black;
     opacity: 0.6;
     margin:0px 0px 5px;
     height: 100vh;
