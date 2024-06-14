@@ -396,10 +396,15 @@ div.email button {
     }
     .in-cont{
         flex-direction: column;
-        justify-content: space-around;
-        padding: 76px 0px 50px 0px;
+        
     }
     .mobile, .children{
         order: 2;
+    }
+    .h1 h1{
+        font-size: 32px;
+    }
+    .ques p{
+        font-size: 18px;
     }
         }
